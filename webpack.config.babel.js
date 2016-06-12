@@ -15,15 +15,16 @@ module.exports = {
           { from: path.resolve(__dirname, 'src/views/'),
             to: path.resolve(__dirname, 'dist/views/')},
           { from: path.resolve(__dirname, 'src/client/styles.css'),
-            to: path.resolve(__dirname, 'dist/public/styles.css')}
+            to: path.resolve(__dirname, 'dist/public/styles.css')},
+          { from: path.resolve(__dirname, 'src/vendor/'),
+            to: path.resolve(__dirname, 'dist/public/vendor')}
           ])
       ],
   module:{
     loaders: [
       {
-        test: /index\.js/,
+        test: /\.js/,
         exclude: /(node_modules|bower_components)/,
-        include: path.join(__dirname, 'src/server'),
         loader: 'babel',
         query: {
           presets: ['es2015']
