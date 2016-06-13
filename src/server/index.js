@@ -22,9 +22,9 @@ app.post('/event', (req, res) => {
     {
       countryCode:req.body.countryCode,
       color: req.body.color,
-      msg: req.body.message
+      message: req.body.message
     });
-    
+
   res.send('ok');
 });
 

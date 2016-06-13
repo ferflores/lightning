@@ -1,12 +1,41 @@
 body, html {
   font-family: Arial;
-  background-color: #1F1F1F;
+  background-color: #080808;
   height:100%;
+  overflow: hidden;
 }
 
 #map {
   height:100%;
   width:100%;
+}
+
+#log {
+  height:15%;
+  width:100%;
+  color:white;
+  position:fixed;
+  bottom:0;
+}
+
+.log-icon {
+  width:15px;
+  height:15px;
+  display: inline-block;
+  opacity: .5;
+}
+
+.log-time {
+  color:#aba9aa;
+  opacity: .8;
+}
+
+.log-country {
+  font-weight: bold;
+}
+
+.log-message {
+  color:#7b86ca;
 }
 
 .blink {
