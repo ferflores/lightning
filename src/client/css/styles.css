@@ -1,0 +1,37 @@
+body, html {
+  font-family: Arial;
+  background-color: #1F1F1F;
+  height:100%;
+}
+
+#map {
+  height:100%;
+  width:100%;
+}
+
+.blink {
+  animation: blinkAnimation .4s;
+  -webkit-animation: blinkAnimation .4s;
+  -moz-animation: blinkAnimation .4s;
+  -o-animation: blinkAnimation .4s;
+}
+
+@-webkit-keyframes blinkAnimation {
+  0% {fill: #FFFFFF}
+  100% {fill: #000000}
+}
+
+@-moz-keyframes blinkAnimation {
+  0% {fill: #FFFFFF}
+  100% {fill: #000000}
+}
+
+@-o-keyframes blinkAnimation {
+  0% {fill: #FFFFFF}
+  100% {fill: #000000}
+}
+
+@keyframes blinkAnimation {
+  0% {fill: #FFFFFF}
+  100% {fill: #000000}
+}

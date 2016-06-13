@@ -14,7 +14,7 @@ module.exports = {
         new CopyWebpackPlugin([
           { from: path.resolve(__dirname, 'src/views/'),
             to: path.resolve(__dirname, 'dist/views/')},
-          { from: path.resolve(__dirname, 'src/client/styles.css'),
+          { from: path.resolve(__dirname, 'src/client/css/styles.css'),
             to: path.resolve(__dirname, 'dist/public/styles.css')},
           { from: path.resolve(__dirname, 'src/vendor/'),
             to: path.resolve(__dirname, 'dist/public/vendor')}

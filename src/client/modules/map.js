@@ -17,7 +17,7 @@ var regionStyle = {
 
 var map = {
   init: function(){
-    $('#map').vectorMap(
+    return $('#map').vectorMap(
       {
         map: 'world_mill',
         backgroundColor:'#5f5f5f',
