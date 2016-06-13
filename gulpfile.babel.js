@@ -2,7 +2,7 @@ import gulp from 'gulp';
 import path from 'path';
 import babel from 'gulp-babel';
 
-const serverSrc = path.resolve(__dirname,'src/server/index.js');
+const serverSrc = path.resolve(__dirname,'src/server/**/*.js');
 const serverDest = path.resolve(__dirname,'dist/server/');
 
 
