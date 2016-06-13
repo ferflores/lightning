@@ -1,10 +1,8 @@
-let io = null;
+import countryBlink from './countryBlink';
 
-export default function(socket) {
+export default function(socket, map) {
 
-  io = socket();
-
-  io.on('connect', ()=> {
-    console.log('connected');
-  })
+  socket.on('event', (data)=> {
+    countryBlink(map, data.countryCode, data.color);
+  });
 }
