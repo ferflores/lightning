@@ -3,7 +3,7 @@ Real time world event display
 
 ### Preview:
 
-![alt tag](https://raw.githubusercontent.com/ferflores/lightning/master/doc/preview.gif)
+![preview gif](doc/preview.gif)
 
 ### How to run:
 
