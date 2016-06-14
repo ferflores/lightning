@@ -13,7 +13,7 @@ npm start
 
 ### How to send events:
 
-POST Request to http://localhost:3000 with params **countryCode**, **color** and **message**, example:
+POST Request to http://localhost:3000/event with params **countryCode**, **color** and **message**, example:
 
 * countryCode: "US"
 * color: "#00FF00"
