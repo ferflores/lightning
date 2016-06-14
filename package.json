@@ -2,7 +2,7 @@
   "name": "lightning",
   "version": "1.0.0",
   "description": "Real time world event display",
-  "main": "index.js",
+  "main": "dist/server/index.js",
   "scripts": {
     "start": "gulp && webpack && node dist/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
