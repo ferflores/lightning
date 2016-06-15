@@ -37,30 +37,3 @@ body, html {
 .log-message {
   color:#7b86ca;
 }
-
-.blink {
-  animation: blinkAnimation .4s;
-  -webkit-animation: blinkAnimation .4s;
-  -moz-animation: blinkAnimation .4s;
-  -o-animation: blinkAnimation .4s;
-}
-
-@-webkit-keyframes blinkAnimation {
-  0% {fill: #FFFFFF}
-  100% {fill: #000000}
-}
-
-@-moz-keyframes blinkAnimation {
-  0% {fill: #FFFFFF}
-  100% {fill: #000000}
-}
-
-@-o-keyframes blinkAnimation {
-  0% {fill: #FFFFFF}
-  100% {fill: #000000}
-}
-
-@keyframes blinkAnimation {
-  0% {fill: #FFFFFF}
-  100% {fill: #000000}
-}
