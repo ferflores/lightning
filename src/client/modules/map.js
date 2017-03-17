@@ -1,6 +1,6 @@
 var regionStyle = {
   initial: {
-    fill: '#000000',
+    fill: '#8f8f8f',
     "fill-opacity": 1,
     stroke: 'none',
     "stroke-width": 0,
